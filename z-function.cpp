@@ -43,7 +43,7 @@ int SubstringFinder::AnalyseNewStringSymbol(const std::deque<char>& following_st
 		right_ = i + current_z_function - 1;
 	}
 	if (current_z_function == pattern_.size()) {
-		return index_in_string; 
+		return index_in_string; // return index of suitable position
 	} else {
 		return -1; // in this case we return invalid index
 	}
