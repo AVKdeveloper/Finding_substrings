@@ -17,7 +17,7 @@ class SubstringFinder {
 public:
 	SubstringFinder(const std::string& pattern);
 	void InitializeZFunction();
-	int AnalyseNewStringSymbol(const std::deque<char>& following_string_symbols, int index_in_string);
+	int AnalyseNewStringSymbol(const std::deque<char>& following_string_symbols, const int& index_in_string);
 };
 
 #endif // Z_FUNCTION_H

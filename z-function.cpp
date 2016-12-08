@@ -24,7 +24,7 @@ void SubstringFinder::InitializeZFunction() {
 	}
 }
 
-int SubstringFinder::AnalyseNewStringSymbol(const std::deque<char>& following_string_symbols, int index_in_string) {
+int SubstringFinder::AnalyseNewStringSymbol(const std::deque<char>& following_string_symbols, const int& index_in_string) {
 	//now the same algorithm as InitializeZFunction(), but we analyse a new string symbol
 	//and z-function for this symbol <= pattern.size()
 	int i = pattern_.size() + index_in_string; // index int total string
